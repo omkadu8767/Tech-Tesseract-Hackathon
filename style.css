@@ -19,12 +19,12 @@
 
 .left-content {
   width: 80vw;
-  padding: 60px;
+  padding: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(./assests/bg-image.png);
+  background-image: url(./assests/13238.jpg);
   background-size: cover;
 }
 
