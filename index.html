@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,242 +10,315 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
-  <a class="navbar-brand" href="#"><img src="./assests/logo.png" alt="Logo" style="height: 40px;"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
+    <a class="navbar-brand" href="#"><img src="./assests/logo.png" alt="Logo" style="height: 40px;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link bold" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link bold" href="#">Book an Appointment</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link bold" href="#">About Us</a>
-      </li>
-    </ul>
-    <ul class="navbar-nav">
-      <li class="nav-item bold">
-        <a class="nav-link" href="#" id="loginBtn">Login</a>
-      </li>
-    </ul>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link bold" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link bold" href="#">Book an Appointment</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link bold" href="#">About Us</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item bold">
+          <a class="nav-link" href="#" id="loginBtn">Login</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- Add your login form here -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <!-- Add your login button logic here -->
+        </div>
+      </div>
+    </div>
   </div>
-</nav>
 
-<!-- Modal -->
-<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+  <div class="upper-main-div">
+    <div class="left-content">
+      <h1>** Welcome to Swastha Bharat Portal **</h1>
+      <h3>Empowering your journey to wellness, one click at a time </h3>
+      <h3>- Swastha Mitra, where health meets care</h3>
+    </div>
+    <div class="right-marquee">
+      <div class='panel-heading'>
+        <span class="fa fa-list-alt"></span>
+        <b>Medicine Updates</b>
       </div>
-      <div class="modal-body">
-        <!-- Add your login form here -->
+      <div class='panel-body'>
+        <div class="row">
+          <div class="col-xs-12">
+            <marquee direction="up" loop onmouseover="this.stop();" onmouseout="this.start();" scrollamount="4"
+              style="height:300px;">
+              <ul id="insdemo">
+                <li class="instruction-item">B.Tech Chemical Technology in
+                  Food Technology (Third Semester ( Sem - 3)) Back - Result Declared :
+                  13/03/2024
+                  <img src="https://sgbau.ucanapply.com/images/icons/new.gif">
+                </li>
+                <li class="instruction-item">Bachelor of Textile
+                  Engineering (First Semester ( Sem - 1)) Regular - Result Declared :
+                  13/03/2024
+                  <img src="https://sgbau.ucanapply.com/images/icons/new.gif">
+                </li>
+              </ul>
+            </marquee>
+          </div>
+        </div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <!-- Add your login button logic here -->
+    </div>
+  </div> <br>
+  <div class="lower-div">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">Book an Appointment</h5>
+            <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+          </div>
+        </div>
       </div>
+      <div class="col">
+        <div class="card">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">Order Medicine</h5>
+            <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">Find Medicine Updates</h5>
+            <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> -->
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">Set Dose Reminder</h5>
+            <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">24*7 Chatbot Service</h5>
+            <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">Video Conferencing</h5>
+            <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+          </div>
+        </div>
+      </div>
+      <p style="margin-left: 74rem ; font-weight: bold;">**and many more</p>
     </div>
   </div>
-</div>
+  <br><br>
+  <div class="salient-feature">
+    <div class="featuure-content">
+      <h2>Salient Features :</h2>
+      <h4>At Swastha Bharat Portal, we are dedicated to ensuring the well-being of every individual by providing
+        seamless access to essential healthcare services. Our platform is designed to empower you with knowledge,
+        convenience, and personalized care, all at your fingertips.</h4> <br><br>
 
-<div class="upper-main-div">
-  <div class="left-content">
-    <h1>** Welcome to Swastha Bharat Portal **</h1>
-    <h3>Empowering your journey to wellness, one click at a time </h3>
-    <h3>- Swastha Mitra, where health meets care</h3>
+      <h5>1. Access Government Medicines Easily</h5>
+      <h6>With our portal, you can effortlessly browse through a comprehensive database of government-approved
+        medicines. Stay updated on the latest medications approved by the government and those that are banned to make
+        informed decisions about your health.</h6> <br>
+
+      <h5> 2. Personalized Prescriptions for Your Needs</h5>
+      <h6>Receive personalized prescriptions tailored to your specific disease details and symptoms. Our advanced AI
+        algorithms analyze your health information to recommend the most suitable medications approved by the
+        government.</h6> <br>
+
+      <h5>3. Find Nearby Stores with Ease</h5>
+      <h6>Locate nearby pharmacies and medical stores effortlessly using our geolocation feature. Discover the nearest
+        stores offering the medications prescribed to you, ensuring quick and convenient access to essential drugs.</h6>
+      <br>
+
+      <h5>4. Never Miss a Dose Again</h5>
+      <h6>Say goodbye to missed medication doses with our reminder system. Receive timely reminders according to your
+        prescription, ensuring you stay on track with your treatment plan and maintain optimal health.</h6> <br>
+
+      <h5>5. Book Appointments Hassle-Free</h5>
+      <h6>Schedule appointments with healthcare professionals directly through our portal. Whether you prefer in-person
+        consultations or telemedicine appointments, booking your visit has never been easier.</h6> <br>
+
+      <h5>6. Take Charge of Your Health Today</h5>
+      <h6>Join us in our mission to promote a healthier nation. Sign up for Swastha Bharat Portal today and take control
+        of your health journey. Together, let's build a healthier and happier future for all.</h6>
+
+    </div>
   </div>
-    <div class="right-marquee" >
-                <div class='panel-heading'>
-                    <span class="fa fa-list-alt"></span>
-                    <b>Medicine Updates</b>
-                </div>
-                <div class='panel-body'>
-                    <div class="row">
-                        <div class="col-xs-12" >
-                            <marquee direction="up" loop onmouseover="this.stop();"
-                                onmouseout="this.start();" scrollamount="4" style="height:300px;">
-                                <ul id="insdemo">
-                                    <li class="instruction-item" >B.Tech Chemical Technology in
-                                        Food Technology (Third Semester ( Sem - 3)) Back - Result Declared :
-                                        13/03/2024
-                                        <img src="https://sgbau.ucanapply.com/images/icons/new.gif">
-                                    </li>
-                                    <li class="instruction-item" >Bachelor of Textile
-                                        Engineering (First Semester ( Sem - 1)) Regular - Result Declared :
-                                        13/03/2024
-                                        <img src="https://sgbau.ucanapply.com/images/icons/new.gif">
-                                    </li>
-                                </ul>
-                            </marquee>
-                        </div>
-                    </div>
-                </div>
-    </div>
-</div> <br>
-<div class="lower-div">
-  <div class="row row-cols-1 row-cols-md-3 g-4">
-    <div class="col">
-      <div class="card">
-        <!-- <img src="..." class="card-img-top" alt="..."> -->
-        <div class="card-body">
-          <h5 class="card-title">Book an Appointment</h5>
-          <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
-        </div>
+  <div class="faq-container">
+    <h1>Frequently Asked Questions</h1><br>
+
+    <div class="faq-item">
+      <div class="faq-question">What are the symptoms of COVID-19?<span class="arrow"></span></div>
+      <div class="faq-answer">
+        <p>The most common symptoms of COVID-19 are fever, dry cough, and tiredness. Some patients may have aches and
+          pains, nasal congestion, runny nose, sore throat, or diarrhea. These symptoms are usually mild and begin
+          gradually. Some people become infected but only have very mild symptoms.</p>
       </div>
     </div>
-    <div class="col">
-      <div class="card">
-        <!-- <img src="..." class="card-img-top" alt="..."> -->
-        <div class="card-body">
-          <h5 class="card-title">Order Medicine</h5>
-          <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
-        </div>
+
+    <div class="faq-item">
+      <div class="faq-question">How can I protect myself and prevent the spread of COVID-19?<span class="arrow"></span>
       </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <!-- <img src="..." class="card-img-top" alt="..."> -->
-        <div class="card-body">
-          <h5 class="card-title">Find Medicine Updates</h5>
-          <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> -->
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <!-- <img src="..." class="card-img-top" alt="..."> -->
-        <div class="card-body">
-          <h5 class="card-title">Set Dose Reminder</h5>
-          <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <!-- <img src="..." class="card-img-top" alt="..."> -->
-        <div class="card-body">
-          <h5 class="card-title">24*7 Chatbot Service</h5>
-          <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <!-- <img src="..." class="card-img-top" alt="..."> -->
-        <div class="card-body">
-          <h5 class="card-title">Video Conferencing</h5>
-          <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
-        </div>
-      </div>
-    </div>
-    <p style="margin-left: 74rem ; font-weight: bold;" >**and many more</p>
-  </div>
-</div>
- <br><br>
-<div class="salient-feature">
-<div class="featuure-content">
-    <h2>Salient Features :</h2>
-    <h4>At Swastha Bharat Portal, we are dedicated to ensuring the well-being of every individual by providing seamless access to essential healthcare services. Our platform is designed to empower you with knowledge, convenience, and personalized care, all at your fingertips.</h4> <br><br>
-
-<h5>1. Access Government Medicines Easily</h5>
-<h6>With our portal, you can effortlessly browse through a comprehensive database of government-approved medicines. Stay updated on the latest medications approved by the government and those that are banned to make informed decisions about your health.</h6> <br>
-
-<h5> 2. Personalized Prescriptions for Your Needs</h5>
-<h6>Receive personalized prescriptions tailored to your specific disease details and symptoms. Our advanced AI algorithms analyze your health information to recommend the most suitable medications approved by the government.</h6> <br>
-
-<h5>3. Find Nearby Stores with Ease</h5>
-<h6>Locate nearby pharmacies and medical stores effortlessly using our geolocation feature. Discover the nearest stores offering the medications prescribed to you, ensuring quick and convenient access to essential drugs.</h6> <br>
-
-<h5>4. Never Miss a Dose Again</h5>
-<h6>Say goodbye to missed medication doses with our reminder system. Receive timely reminders according to your prescription, ensuring you stay on track with your treatment plan and maintain optimal health.</h6> <br>
-
-<h5>5. Book Appointments Hassle-Free</h5>
-<h6>Schedule appointments with healthcare professionals directly through our portal. Whether you prefer in-person consultations or telemedicine appointments, booking your visit has never been easier.</h6> <br>
-
-<h5>6. Take Charge of Your Health Today</h5>
-<h6>Join us in our mission to promote a healthier nation. Sign up for Swastha Bharat Portal today and take control of your health journey. Together, let's build a healthier and happier future for all.</h6>
-
-</div>
-</div>
-
-<footer class="footer mt-auto py-3  text-light">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-        <h5>About Us</h5>
-        <p>We are committed to providing quality healthcare services to our patients.</p>
-      </div>
-      <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-        <h5>Contact Us</h5>
-        <p>Email: info@medicalportal.com</p>
-        <p>Phone: +1-234-567-890</p>
-      </div>
-      <div class="col-lg-4 col-md-12 col-sm-12">
-        <h5>Follow Us</h5>
-        <ul class="list-unstyled">
-          <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"></i>Facebook</a></li>
-          <li><a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
-          <li><a href="https://in.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-          <li><a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+      <div class="faq-answer">
+        <p>To protect yourself and others against COVID-19, follow these recommendations:</p>
+        <ul>
+          <li>Wash your hands frequently with soap and water, or use alcohol-based hand rub.</li>
+          <li>Maintain a safe distance from anyone who is coughing or sneezing.</li>
+          <li>Wear a mask when physical distancing is not possible.</li>
+          <li>Avoid touching your eyes, nose, and mouth.</li>
+          <li>Cover your mouth and nose with your bent elbow or tissue when you cough or sneeze.</li>
+          <li>Stay home if you feel unwell.</li>
+          <li>Get vaccinated when it's available to you.</li>
         </ul>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <p>&copy; 2024 Medical Portal. All rights reserved.</p>
+
+    <div class="faq-item">
+      <div class="faq-question">Is it safe to receive packages during the COVID-19 pandemic?<span class="arrow"></span>
+      </div>
+      <div class="faq-answer">
+        <p>Yes, it is safe to receive packages during the COVID-19 pandemic. The likelihood of an infected person
+          contaminating commercial goods is low and the risk of catching the virus from a package that has been moved,
+          travelled, and exposed to different conditions and temperatures is also low.</p>
       </div>
     </div>
   </div>
-</footer>
+  <br><br>
+  <footer class="footer mt-auto py-3  text-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+          <h5>About Us</h5>
+          <p>We are committed to providing quality healthcare services to our patients.</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+          <h5>Contact Us</h5>
+          <p>Email: info@medicalportal.com</p>
+          <p>Phone: +1-234-567-890</p>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <h5>Follow Us</h5>
+          <ul class="list-unstyled">
+            <li><a href="https://www.facebook.com/" target="_blank"><i
+                  class="fa-brands fa-square-facebook"></i>Facebook</a></li>
+            <li><a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+            <li><a href="https://in.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><i
+                  class="fab fa-instagram"></i> Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>&copy; 2024 Medical Portal. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
-<!-- Bootstrap JS and jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-<script>
-  // Replace login button with personal profile after successful login
-  function login() {
-    // Example logic for login
-    // You can replace it with your actual login logic
-    var loggedIn = true; // Assume the user is logged in successfully
-    
-    if (loggedIn) {
-      $('#loginBtn').html('<a class="nav-link" href="#">My Profile</a>');
-      $('#loginBtn').removeAttr('data-toggle');
-      $('#loginBtn').removeAttr('data-target');
-      $('#loginBtn').attr('id', 'profileLink');
-      $('#profileLink').click(function(event) {
-        // Add your profile page redirection logic here
-        event.preventDefault();
-        alert('Redirect to profile page');
-      });
+  <script>
+    // Replace login button with personal profile after successful login
+    function login() {
+      // Example logic for login
+      // You can replace it with your actual login logic
+      var loggedIn = true; // Assume the user is logged in successfully
+
+      if (loggedIn) {
+        $('#loginBtn').html('<a class="nav-link" href="#">My Profile</a>');
+        $('#loginBtn').removeAttr('data-toggle');
+        $('#loginBtn').removeAttr('data-target');
+        $('#loginBtn').attr('id', 'profileLink');
+        $('#profileLink').click(function (event) {
+          // Add your profile page redirection logic here
+          event.preventDefault();
+          alert('Redirect to profile page');
+        });
+      }
     }
-  }
 
-  $(document).ready(function() {
-    $('#loginBtn').click(function() {
-      $('#loginModal').modal('show');
+    $(document).ready(function () {
+      $('#loginBtn').click(function () {
+        $('#loginModal').modal('show');
+      });
+
+      // Call login function after modal is hidden
+      $('#loginModal').on('hidden.bs.modal', function () {
+        login();
+      });
     });
 
-    // Call login function after modal is hidden
-    $('#loginModal').on('hidden.bs.modal', function () {
-      login();
+    // FAQ
+    document.addEventListener("DOMContentLoaded", function () {
+      const faqQuestions = document.querySelectorAll('.faq-question');
+
+      faqQuestions.forEach(question => {
+        const arrow = question.querySelector('.arrow');
+        const answer = question.nextElementSibling;
+
+        question.addEventListener('click', () => {
+          // Toggle answer visibility
+          answer.classList.toggle('faq-answer-show');
+
+          // Toggle arrow rotation
+          arrow.classList.toggle('opened');
+        });
+      });
     });
-  });
-</script>
+  </script>
 
 </body>
+
 </html>
