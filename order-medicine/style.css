@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-image: url(../assests/logo.png);
+    background-color: rgba(128, 128, 128, 0.4); */
+    /* Adjust the opacity here */
+}
+
+.container {
+    /* width: 80%; */
+    margin: 0 auto;
+}
+
+.content {
+
+    width: 100%;
+    /* height: 100%; */
+    background-image: url(../assests/logo.png);
+    background-color: rgba(128, 128, 128, 0.4);
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#cart {
+    border: 5px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#cartItems {
+    list-style: none;
+    padding: 0;
+}
+
+#cartItems li {
+    margin-bottom: 5px;
+}
+
+.order-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
