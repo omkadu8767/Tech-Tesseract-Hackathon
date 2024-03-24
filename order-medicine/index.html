@@ -11,10 +11,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom navbar-fixed-top">
         <a class="navbar-brand" href="#"><img src="../assests/logo.png" alt="Logo" style="height: 40px;"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,11 +46,9 @@
     </nav>
     <div class="content">
         <div class="container">
-            <h1 style="text-align: center;">Order Medicine</h1>
-            <div id="cart">
-                <h2>Cart</h2>
-                <ul id="cartItems"></ul>
-            </div>
+            <br><br>
+            <h1 class="order_med">Order Medicine</h1><br><br>
+
             <div class="order-form">
                 <form id="orderForm">
                     <label for="medicineName">Medicine Name:</label>
@@ -70,12 +69,13 @@
                     <label for="additionalInfo">Additional Information:</label>
                     <textarea id="additionalInfo" name="additionalInfo"></textarea><br><br>
 
-                    <button type="submit">Add to Cart</button><br><br>
+                    <center> <button type="submit">Add to Cart</button><br><br></center>
                     <button id="checkoutBtn" style="display: none;">Proceed to Pay</button>
                     <div id="confirmationMessage" style="display: none;"></div>
                 </form>
 
-
+                <br>
+                <br>
             </div>
         </div>
     </div>

@@ -3,19 +3,24 @@ body {
     /* background-image: url(../assests/logo.png);
     background-color: rgba(128, 128, 128, 0.4); */
     /* Adjust the opacity here */
+
 }
 
 .container {
     /* width: 80%; */
     margin: 0 auto;
+
+}
+
+.order_med {
+    text-align: center;
 }
 
 .content {
 
-    width: 100%;
-    /* height: 100%; */
-    background-image: url(../assests/logo.png);
-    background-color: rgba(128, 128, 128, 0.4);
+
+
+    background-color: rgba(22, 169, 139, 0.723);
 }
 
 form {
@@ -47,11 +52,7 @@ button:hover {
     background-color: #0056b3;
 }
 
-#cart {
-    border: 5px solid black;
-    padding: 10px;
-    margin-bottom: 20px;
-}
+
 
 #cartItems {
     list-style: none;
@@ -66,4 +67,20 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: solid;
+    border-radius: 20px;
+    padding-top: 40px;
+    background-image: url(../assests/v870-tang-36.jpg);
+    background-size: cover;
+
+    background-position: center;
+}
+
+.navbar-custom {
+    background: linear-gradient(to right, #ffcc00, #66cc99, #0077cc);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
