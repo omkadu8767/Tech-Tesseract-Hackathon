@@ -40,7 +40,7 @@ document.getElementById("checkoutBtn").addEventListener("click", function () {
 
     // Display confirmation message
     const confirmationMessage = document.getElementById("confirmationMessage");
-    // confirmationMessage.textContent = "Your order has been placed successfully!";
+    confirmationMessage.textContent = "Your order has been placed successfully!";
     confirmationMessage.style.display = "block";
 
     // Clear cart

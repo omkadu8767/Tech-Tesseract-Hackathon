@@ -54,6 +54,12 @@ button:hover {
 
 
 
+#cart {
+    border: 5px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
 #cartItems {
     list-style: none;
     padding: 0;
@@ -62,6 +68,11 @@ button:hover {
 #cartItems li {
     margin-bottom: 5px;
 }
+
+#checkoutBtn {
+    text-align: center;
+}
+
 
 .order-form {
     display: flex;

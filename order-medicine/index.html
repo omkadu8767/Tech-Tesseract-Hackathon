@@ -24,13 +24,13 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link bold" href="#">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link bold" href="../index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link bold" href="#">Book an Appointment</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link bold" href="./index.html ">Order Medicine</a>
                 </li>
                 <li class="nav-item">
@@ -48,6 +48,10 @@
         <div class="container">
             <br><br>
             <h1 class="order_med">Order Medicine</h1><br><br>
+            <div id="cart">
+                <h2>Cart</h2>
+                <ul id="cartItems"></ul>
+            </div>
 
             <div class="order-form">
                 <form id="orderForm">
@@ -69,8 +73,8 @@
                     <label for="additionalInfo">Additional Information:</label>
                     <textarea id="additionalInfo" name="additionalInfo"></textarea><br><br>
 
-                    <center> <button type="submit">Add to Cart</button><br><br></center>
-                    <button id="checkoutBtn" style="display: none;">Proceed to Pay</button>
+                    <center> <button id="addtoCart" type="submit">Add to Cart</button><br><br></center>
+                    <a href="../Payment/index.html" id="checkoutBtn" style="display: none;">Proceed to Pay</a>
                     <div id="confirmationMessage" style="display: none;"></div>
                 </form>
 
@@ -79,6 +83,41 @@
             </div>
         </div>
     </div>
+    <footer class="footer mt-auto py-3  text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                    <h5>About Us</h5>
+                    <p>We are committed to providing quality healthcare services to our patients.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                    <h5>Contact Us</h5>
+                    <p>Email: info@medicalportal.com</p>
+                    <p>Phone: +1-234-567-890</p>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <h5>Follow Us</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.facebook.com/" target="_blank"><i
+                                    class="fa-brands fa-square-facebook"></i>Facebook</a></li>
+                        <li><a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i>
+                                Twitter</a></li>
+                        <li><a href="https://in.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i>
+                                LinkedIn</a>
+                        </li>
+                        <li><a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><i
+                                    class="fab fa-instagram"></i> Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>&copy; 2024 Medical Portal. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 
     <script src="script.js"></script>
 </body>
