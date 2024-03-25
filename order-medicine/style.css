@@ -54,8 +54,12 @@ button:hover {
 
 
 
+
 #cart {
-    border: 5px solid black;
+
+    color: rgb(198, 232, 230);
+    border: solid black;
+    border-radius: 20px;
     padding: 10px;
     margin-bottom: 20px;
 }
