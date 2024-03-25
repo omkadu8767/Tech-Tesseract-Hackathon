@@ -27,18 +27,30 @@
 
 .left-content {
   width: 80vw;
-  padding: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(./assests/Swastha.png);
+  /* background-image: url(./assests/bg-image1.png);
   background-size: cover;
+  padding-left: 4%;
+  padding-right: 35%;
+  padding-top: 10%; */
+  background-image: url("./assests/v870-tang-36.jpg");
+  background-size: cover;
+  padding-left: 20%;
 }
 
-#he {
-  color: #00b5e8;
+#title{
+  font-size: 2vw;
+  color: #48916cfc;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 
+.left-content p{
+  font-size: 1.3vw;
+  margin: 0;
+  color: #5ab98a;
 }
 
 .panel-body {
@@ -55,6 +67,33 @@
 
 
 }
+
+li{
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .faq-container {
+    margin: 20px;
+  }
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .upper-main-div {
+    flex-direction: column;
+  }
+
+  .left-content {
+    width: 100%;
+    height: 60vw;
+  }
+
+  .right-marquee {
+    width: 92%;
+  }
+}
+
 
 .lower-div {
   padding: 2%;
@@ -82,17 +121,15 @@
   align-items: center;
   background-color: #66cc99;
   border-radius: 34px;
-  box-shadow: 4px 4px 15px #66cc99,
-    -4px -4px 15px #ffffff;
   transition: all .2s ease-in-out;
+  color: white;
 }
 
 .card:hover {
-  background-color: black;
-  color: #ffffff;
-  transform: scale(1.09);
-  box-shadow: 4px 4px 15px #0e0e0e,
-    -4px -4px 15px #74806e;
+  background-color: white;
+  color: #000000;
+  transform: scale(1.02);
+  border: 2px black dashed;
 }
 
 .footer {
@@ -156,12 +193,3 @@
   display: block;
 }
 
-@media screen and (max-width: 600px) {
-  .faq-container {
-    margin: 20px;
-  }
-}
-
-.card-title {
-  color: #ffffff;
-}
