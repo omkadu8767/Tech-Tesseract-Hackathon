@@ -26,4 +26,8 @@ $(document).ready(function () {
     // });
   });
 });
+document.getElementById("Book").addEventListener("click", function () {
+  alert("Your appointment has been booked successfully!. Our Team Member will soon contact you for confirmation.");
+});
+
 
