@@ -1,5 +1,6 @@
-!<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,38 +9,142 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../style.css">
+
 </head>
+
 <body>
 
-<div class="container mt-5">
-  <h2 class="mb-4">Appointment Form</h2>
-  <form id="appointmentForm">
-    <div class="form-group">
-      <label for="fullName">Full Name:</label>
-      <input type="text" class="form-control" id="fullName" name="fullName" required>
-    </div>
-    <div class="form-group">
-      <label for="email">Email:</label>
-      <input type="email" class="form-control" id="email" name="email" required>
-    </div>
-    <div class="form-group">
-      <label for="phone">Phone:</label>
-      <input type="tel" class="form-control" id="phone" name="phone" required>
-    </div>
-    <div class="form-group">
-      <label for="appointmentDate">Preferred Appointment Date:</label>
-      <input type="date" class="form-control" id="appointmentDate" name="appointmentDate" required>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
-</div>
 
-<!-- Bootstrap JS and jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<!-- Custom JS -->
-<script src="script.js"></script>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom navbar-fixed-top">
+    <a class="navbar-brand" href="#"><img src="../assests/logo.png" alt="Logo" style="height: 40px;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link bold" href="../index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link bold" href="#">Book an Appointment</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link bold" href="./index.html ">Order Medicine</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link bold" href="#">About Us</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item bold">
+          <a class="nav-link" href="#" id="loginBtn">Login</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="content">
+    <div class="container">
+      <br><br>
+
+      <br>
+      <br>
+      <center>
+        <h1 class="Book_app">Book An Appointment</h1><br>
+      </center>
+
+
+      <div class="Appointment-form">
+        <form id="Appointmentform">
+          <label for="PersonName">Patient Name:</label>
+          <input type="text" id="PersonName" name="PersonName" required><br><br>
+
+          <label for="Phone">Phone Number:</label>
+          <input type="number" id="Phone" name="Phone" pattern="+91[0-9]{3}[0-9]{3}[0-9]{4}" required><br><br>
+
+          <label for="Email">Email:</label>
+          <input type="email" id="Email" name="Email" required><br><br>
+
+
+          <label for="date">Preferred appointment date:</label>
+          <input type="date" id="date" name="date" required>
+          <br><br>
+          <label for="time">Preferred appointment time:</label>
+          <input type="time" id="time" name="time" required>
+          <br><br>
+          <label for="time">Type Of Appointment:</label>
+          <select name="cars" id="cars">
+            <option value="Specialist_Consultation">Specialist Consultation</option>
+            <option value="Follow-up"> Follow-up</option>
+            <option value="Diagnostic_Tests">Diagnostic Tests</option>
+            <option value="Vaccination_Appointment"> Vaccination Appointment</option>
+            <option value="Therapy_Sessions">Therapy Sessions</option>
+            <option value="Pre-Operative_Appointments"> Pre-Operative Appointments</option>
+            <option value="Telemedicine_Appointments">Telemedicine Appointments</option>
+            <option value="Urgent_Care_Appointments">Urgent Care Appointment</option>
+          </select>
+          <br><br>
+
+          <!-- Additional Fields -->
+          <label for="additionalInfo">Additional Information:</label>
+          <textarea id="additionalInfo" name="additionalInfo"></textarea><br><br>
+
+          <center> <button id="Book" type="submit">Book Appointment</button><br><br></center>
+          <a href="../Payment/index.html" id="checkoutBtn" style="display: none;">Proceed to Pay</a>
+          <div id="confirmationMessage" style="display: none;"></div>
+        </form>
+
+        <br>
+        <br>
+      </div>
+    </div>
+  </div>
+  <footer class="footer mt-auto py-3  text-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+          <h5>About Us</h5>
+          <p>We are committed to providing quality healthcare services to our patients.</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+          <h5>Contact Us</h5>
+          <p>Email: info@medicalportal.com</p>
+          <p>Phone: +1-234-567-890</p>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <h5>Follow Us</h5>
+          <ul class="list-unstyled">
+            <li><a href="https://www.facebook.com/" target="_blank"><i
+                  class="fa-brands fa-square-facebook"></i>Facebook</a></li>
+            <li><a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i>
+                Twitter</a></li>
+            <li><a href="https://in.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i>
+                LinkedIn</a>
+            </li>
+            <li><a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><i
+                  class="fab fa-instagram"></i> Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>&copy; 2024 Medical Portal. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
 
 </body>
+
 </html>
