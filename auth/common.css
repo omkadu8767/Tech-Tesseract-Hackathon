@@ -1,4 +1,4 @@
-body{
+body {
     /* background-color: rgba(22, 169, 139, 0.723); */
     /* background-image: url('../assests/1.png');   */
     /* background-size: cover ; */
@@ -7,8 +7,20 @@ body{
     /* background: linear-gradient(90deg, #ffcc00, #66cc99, #0077cc); */
 }
 
-.card-body{
+.card-body {
     /* background-image: url("../assests/bg-image.png"); */
     /* background-size: cover; */
     background: linear-gradient(90deg, #ffcc00, #66cc99, #0077cc);
+}
+
+.alert {
+    width: 100%;
+    background: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    display: none;
+    color: white;
 }
