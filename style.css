@@ -193,3 +193,10 @@ li{
   display: block;
 }
 
+#media :hover{
+  background: linear-gradient(to right, #ffcc00, #66cc99, #0077cc);
+  color: black;
+  padding: 2px;
+  margin: 2px;
+  font-weight: 700;
+}

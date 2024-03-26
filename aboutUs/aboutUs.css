@@ -1,0 +1,54 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  /* background-color: #f8f9fa;
+  color: #333; */
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar-custom {
+    background: linear-gradient(to right, #ffcc00, #66cc99, #0077cc);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Main content styles */
+h1, h2, h3 {
+  color: #007bff;
+}
+
+.team-member {
+  margin-bottom: 20px;
+}
+
+.team-member img {
+  max-width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
+.footer {
+  background-color: black;
+}
+
+
+#media :hover{
+  background: linear-gradient(to right, #ffcc00, #66cc99, #0077cc);
+  color: black;
+  padding: 2px;
+  margin: 2px;
+  font-weight: 700;
+}
