@@ -1,0 +1,97 @@
+#appointmentForm {
+
+
+    border: solid;
+    border-radius: 20px;
+    padding-top: 40px;
+    background-image: url(../assests/v870-tang-36.jpg);
+    background-size: cover;
+
+    background-position: center;
+
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-image: url(../assests/logo.png);
+    background-color: rgba(128, 128, 128, 0.4); */
+    /* Adjust the opacity here */
+
+}
+
+.container {
+    /* width: 80%; */
+    margin: 0 auto;
+
+}
+
+.Book_app {
+    text-align: center;
+}
+
+.content {
+
+
+
+    background-color: rgba(22, 169, 139, 0.723);
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+.Appointment-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-radius: 20px;
+    padding-top: 40px;
+    background-image: url(../assests/v870-tang-36.jpg);
+    background-size: cover;
+
+    background-position: center;
+}
+
+.navbar-custom {
+    background: linear-gradient(to right, #ffcc00, #66cc99, #0077cc);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
