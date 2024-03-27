@@ -16,27 +16,31 @@ body {
 }
 
 .navbar-custom {
-    background: linear-gradient(to right, #ffcc00, #66cc99, #0077cc);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
+  background: linear-gradient(to right, #ffcc00, #66cc99, #0077cc);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 /* Main content styles */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #007bff;
 }
 
 .team-member {
   margin-bottom: 20px;
+
 }
 
 .team-member img {
-  max-width: 100px;
+
+  width: 170px;
   border-radius: 50%;
-  margin-bottom: 10px;
+
 }
 
 /* Footer styles */
@@ -45,10 +49,24 @@ h1, h2, h3 {
 }
 
 
-#media :hover{
+#media :hover {
   background: linear-gradient(to right, #ffcc00, #66cc99, #0077cc);
   color: black;
   padding: 2px;
   margin: 2px;
   font-weight: 700;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mem1 {
+  margin-left: 35px;
+}
+
+.mem2 {
+  margin-left: 40px;
 }
