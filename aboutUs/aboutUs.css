@@ -70,3 +70,9 @@ h3 {
 .mem2 {
   margin-left: 40px;
 }
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+  }
+}
