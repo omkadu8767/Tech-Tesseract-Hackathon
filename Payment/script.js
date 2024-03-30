@@ -3,16 +3,16 @@ document.getElementById("payButton").addEventListener("click", function() {
   
     // Razorpay checkout options
     const options = {
-      key: 'rzp_live_CoGDjhNbvrSG9P',
-      amount: amount * 100, // Amount is in paise (Indian currency), multiply by 100 to convert to paisa
+      key: 'rzp_test_LN5SE3XfavXRvS',
+      amount: amount * 100, 
       currency: 'INR',
-      name: 'SSGMCE Hospital',
+      name: 'Swatha Bharat Portal',
       description: 'Payment for services',
-      image: 'https://static.vecteezy.com/system/resources/previews/000/595/739/original/hospital-logo-and-symbols-template-icons-vector.jpg', // Add your logo image URL
+      image: '../assests/logo.svg', // Add your logo image URL
       prefill: {
-        name: 'Gaurav Chaudhari',
-        email: 'chaudharigaurav177@gmail.com',
-        contact: '9665305197'
+        name: 'Om Kadu',
+        email: 'info@swasthabharat.com',
+        contact: '8767488109'
       },
       handler: function(response) {
         alert('Payment successful!');
