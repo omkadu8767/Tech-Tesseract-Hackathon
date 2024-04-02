@@ -45,11 +45,15 @@ document.getElementById("Book").addEventListener("click", function (event) {
   if (personName && phone && email && date && time && typeOfAppointment) {
     // Show success message
     alert("Your appointment has been booked successfully!. Our Team Member will soon contact you for confirmation.");
+    
   } else {
     // Show error message
     alert("Please fill in all the fields.");
   }
 });
-
+document.getElementById("Book").addEventListener("click", function () {
+  // Reset the form
+  document.getElementById("Appointmentform").reset();
+});
 
 
