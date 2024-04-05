@@ -1,3 +1,5 @@
+/* Global styles */
+
 .bold {
   font-weight: 700;
 }
@@ -11,192 +13,134 @@
   z-index: 1000;
 }
 
-.upper-main-div {
-
-  display: flex;
-  padding-top: 50px;
-
-}
-
-#loginBtn {
-  border: solid;
-  border-radius: 10px;
-  box-shadow: 0 0 5px #f7fd79;
-  background-color: #66cc99;
-}
-
-.left-content {
-  width: 80vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* background-image: url(./assests/bg-image1.png);
+#Appointmentform{
+  padding: 30px;
+  background-image: url(./assests/v870-tang-36.jpg);
   background-size: cover;
-  padding-left: 4%;
-  padding-right: 35%;
-  padding-top: 10%; */
-  background-image: url("./assests/v870-tang-36.jpg");
-  background-size: cover;
-  padding-left: 20%;
-}
-
-#title {
-  font-size: 2vw;
-  color: #48916cfc;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.left-content p {
-  font-size: 1.3vw;
-  margin: 0;
-  color: #5ab98a;
-}
-
-.panel-body {
-  padding: 15px;
-}
-
-.right-marquee {
-  width: 20%;
-  border: solid black 1px;
-  border-radius: 5px;
-  margin: 20px;
-  margin-top: 40px;
-  padding: 10px;
-
-
-}
-
-li {
-  margin-top: 10px;
-}
-
-@media screen and (max-width: 600px) {
-  .faq-container {
-    margin: 20px;
-  }
+  border: 2px solid black;
+  border-radius: 30px;
 }
 
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
-  .upper-main-div {
+  .Book_app {
+    font-size: 24px;
+  }
+
+  .navbar-custom {
+    padding: 10px 0;
+  }
+
+  .navbar-brand img {
+    height: 30px;
+  }
+
+  .nav-item {
+    margin-bottom: 10px;
+  }
+
+  .nav-link {
+    padding: 10px;
+  }
+
+  .Appointment-form {
+    padding: 0 10px;
+  }
+
+  .map iframe {
+    max-width: 100%;
+    height: 250px;
+  }
+
+  .options {
     flex-direction: column;
+    align-items: stretch;
   }
 
-  .left-content {
+  .search_input {
+    margin-bottom: 10px;
+  }
+
+  .search_btn {
     width: 100%;
-    height: 60vw;
   }
 
-  .right-marquee {
-    width: 92%;
+  #Book {
+    width: 100%;
   }
 }
 
-
-.lower-div {
-  padding: 2%;
-}
-
-.salient-feature {
-  padding: 15px;
-  margin-left: 30px;
-  margin-right: 40px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  margin-top: 40px;
-}
-
-.feature_cont {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
-}
-
-.card {
-  margin: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #66cc99;
-  border-radius: 34px;
-  transition: all .2s ease-in-out;
-  color: white;
-}
-
-.card:hover {
-  background-color: white;
-  color: #000000;
-  transform: scale(1.02);
-  border: 2px black dashed;
-}
-
+/* Footer styles */
 .footer {
-  /* background: linear-gradient(to right, #ffcc00, #66cc99, #0077cc); */
   background-color: black;
 }
 
-.faq-container {
-  max-width: 100%;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-left: 30px;
-  margin-right: 40px;
+/* Other styles */
+.content {
+  padding-top: 100px;
 }
 
-.faq-item {
-  margin-bottom: 20px;
+.Book_app {
+  font-size: 36px;
 }
 
-.faq-question {
+label {
   font-weight: bold;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search_input {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.search_btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
   cursor: pointer;
-  position: relative;
 }
 
-.arrow {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 5px 5px 0 5px;
-  border-color: #333 transparent transparent transparent;
-  transition: transform 0.3s ease;
+.search_btn:hover {
+  background-color: #0056b3;
 }
 
-.opened .arrow {
-  transform: translateY(-50%) rotate(-180deg);
+.map iframe {
+  max-width: 100%;
+  height: 300px;
 }
 
-.faq-answer {
-  display: none;
-  margin-top: 10px;
+#Book {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
-.faq-answer p {
-  margin: 0;
+#Book:hover {
+  background-color: #218838;
 }
 
-.faq-answer ul {
-  margin-top: 10px;
-  padding-left: 20px;
-}
-
-.faq-answer-show {
-  display: block;
-}
-
-#media :hover {
-  background: linear-gradient(to right, #ffcc00, #66cc99, #0077cc);
+#checkoutBtn {
+  background-color: #ffc107;
   color: black;
-  padding: 2px;
-  margin: 2px;
-  font-weight: 700;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#checkoutBtn:hover {
+  background-color: #e0a800;
+}
+
+#confirmationMessage {
+  margin-top: 20px;
+  font-weight: bold;
 }
