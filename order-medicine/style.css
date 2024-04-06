@@ -2,17 +2,13 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.container {
-    margin: 0 auto;
-}
-
 .order_med {
     text-align: center;
 }
 
 .content {
     background-color: rgba(22, 169, 139, 0.723);
-    padding: 80px;
+    /* padding: 80px; */
 }
 
 form {
@@ -85,19 +81,107 @@ button:hover {
     background-size: cover;
 }
 
-.navbar-custom {
-    background: linear-gradient(to right, #ffcc00, #66cc99, #0077cc);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
+
+  body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
 }
 
-#media :hover{
-    background: linear-gradient(to right, #ffcc00, #66cc99, #0077cc);
-    color: black;
-    padding: 2px;
-    margin: 2px;
-    font-weight: 700;
-  }
+.container-fluid {
+    padding: 0;
+}
+
+.content {
+    background-color: rgba(22, 169, 139, 0.723);
+    padding: 5% 10%;
+}
+
+form,
+.address,
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.button-container {
+    text-align: center;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.content {
+    background-color: rgba(22, 169, 139, 0.723);
+    padding: 5% 10%;
+    min-height: 100vh; /* Ensure minimum height */
+    box-sizing: border-box; /* Include padding in height calculation */
+}
+
+form,
+.address,
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.button-container {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .content {
+        padding: 10% 15%;
+    }
+
+    form,
+    .address,
+    input[type="text"],
+    input[type="number"],
+    textarea {
+        width: 70%;
+        max-width: 500px; /* Limit width on larger screens */
+    }
+}
+
+@media (min-width: 992px) {
+    .content {
+        padding: 15% 20%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .content {
+        padding: 20% 25%;
+    }
+}
+
+
+
+
