@@ -1,5 +1,5 @@
-![logo](https://github.com/anagha012004/Readme/blob/main/Anagha%20Badhe%20(1).png)
-<h1><img src="https://github.com/anagha012004/Readme/blob/main/logo.png" height="30">Health Care Portal</h1>
+![logo](https://github.com/omkadu8767/Tech-Tesseract-Hackathon/blob/main/Readme%20Assests/Anagha%20Badhe%20(1).png)
+<h1><img src="https://github.com/omkadu8767/Tech-Tesseract-Hackathon/blob/main/assests/logo.png" height="30">Health Care Portal</h1>
         <p>Welcome to our Health Care Portal! This portal aims to create a comprehensive online portal that facilitates easy access to government-approved medicines, personalized prescriptions based on disease details, suggestions for nearby stores, and timely reminders for medication doses. This portal will serve as a one-stop solution for individuals seeking medical assistance, information on government-approved medications, and convenient access to pharmacies.
 
 </p>
@@ -15,23 +15,23 @@
        <h2>Getting Started</h2>
         <ol>
             <li><strong>Landing Page:</strong>We came up with the solution of medical portal. And first page the user can find as soon as he/she visits our portal is the Landing page which introduces all the basic functionalities of the portal.
-            <img src="https://github.com/anagha012004/Readme/blob/main/landing%20page.png"></li>
+            <img src="https://github.com/omkadu8767/Tech-Tesseract-Hackathon/blob/main/Readme%20Assests/landing%20page.png"></li>
             <li><strong>FAQ</strong> For any query regarding the portal user can go through FAQ questions to get desired answers.
-             <img src="https://github.com/anagha012004/Readme/blob/main/FAQ.png"></li>
+             <img src="https://github.com/omkadu8767/Tech-Tesseract-Hackathon/blob/main/Readme%20Assests/FAQ.png"></li>
             <li><strong>Chatbot:</strong> To get assistance with our portal we have Swastha Mitra Chatbot which guides users with the flow.
-         <img src="https://github.com/anagha012004/Readme/blob/main/bot.png" align="center"></li>
+         <img src="https://github.com/omkadu8767/Tech-Tesseract-Hackathon/blob/main/Readme%20Assests/bot.png" align="center"></li>
             <li><strong>Book An Appointment:</strong>User can Book an Appointment with a doctor for this he/she needs to fill up the needed information so that his/her session will be booked with the preferred time and date.
-            <img src="https://github.com/anagha012004/Readme/blob/main/Book%20an%20appointment.png"><br><br>
-            <img src="https://github.com/anagha012004/Readme/blob/main/Book%20an%20appointment1.png"><br><br>
-          After filling required information Appointment will be successfully booked and our team member will contact the user soon.   <img src="https://github.com/anagha012004/Readme/blob/main/Book%20an%20appointment%202.png"></li>
+            <img src="https://github.com/omkadu8767/Tech-Tesseract-Hackathon/blob/main/Readme%20Assests/Book%20an%20appointment.png"><br><br>
+            <img src="https://github.com/omkadu8767/Tech-Tesseract-Hackathon/blob/main/Readme%20Assests/Book%20an%20appointment1.png"><br><br>
+          After filling required information Appointment will be successfully booked and our team member will contact the user soon.   <img src="https://github.com/omkadu8767/Tech-Tesseract-Hackathon/blob/main/Readme%20Assests/Book%20an%20appointment%202.png"></li>
             <li><strong>Order Medicine:</strong> Users can order medicines from our portal for this he/she needs to specify their requirements and can proceed to payment.<br>
-            <img src="https://github.com/anagha012004/Readme/blob/main/order%20med.png">
+            <img src="https://github.com/omkadu8767/Tech-Tesseract-Hackathon/blob/main/Readme%20Assests/order%20med.png">
             After Filling required information users can add their choices to the cart and proceed with payment.
             <br>
-            <img src="https://github.com/anagha012004/Readme/blob/main/order%20med1.png">
-            <img src="https://github.com/anagha012004/Readme/blob/main/payment.png"><br>
-            <img src="https://github.com/anagha012004/Readme/blob/main/payment1.png"><br>
-            <img src="https://github.com/anagha012004/Readme/blob/main/payment%202.png">
+            <img src="https://github.com/omkadu8767/Tech-Tesseract-Hackathon/blob/main/Readme%20Assests/order%20med1.png">
+            <img src="https://github.com/omkadu8767/Tech-Tesseract-Hackathon/blob/main/Readme%20Assests/payment.png"><br>
+            <img src="https://github.com/omkadu8767/Tech-Tesseract-Hackathon/blob/main/Readme%20Assests/payment1.png"><br>
+            <img src="https://github.com/omkadu8767/Tech-Tesseract-Hackathon/blob/main/Readme%20Assests/payment%202.png">
             The order will be placed successfully. </li>
         </ol>
         <h1>Development</h1>
@@ -41,7 +41,7 @@
                    <li><strong>Backend:</strong>Firebase, DialogFlow</li>
                <li><strong>Additional APIs:</strong>Map API, Razorpay API</li>
                <br>
-               <img src="https://github.com/anagha012004/Readme/blob/main/TECH%20STACK.jpg">
+               <img src="https://github.com/omkadu8767/Tech-Tesseract-Hackathon/blob/main/Readme%20Assests/TECH%20STACK.jpg">
         </ul>
         <h1>Future Improvements</h1>
         <ul>
@@ -59,4 +59,4 @@
                 <li><strong>Anagha Badhe</strong><br>
                 <a href="v" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="om" height="20" width="30" /></a></li>
         </ul>
-        <img src="https://github.com/anagha012004/Readme/blob/main/team.jpg">
+        <img src="https://github.com/omkadu8767/Tech-Tesseract-Hackathon/blob/main/Readme%20Assests/team.jpg">
