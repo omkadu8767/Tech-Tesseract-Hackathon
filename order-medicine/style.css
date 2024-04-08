@@ -1,15 +1,5 @@
 body {
     font-family: Arial, sans-serif;
-    /* background-image: url(../assests/logo.png);
-    background-color: rgba(128, 128, 128, 0.4); */
-    /* Adjust the opacity here */
-
-}
-
-.container {
-    /* width: 80%; */
-    margin: 0 auto;
-
 }
 
 .order_med {
@@ -17,10 +7,8 @@ body {
 }
 
 .content {
-
-
-
     background-color: rgba(22, 169, 139, 0.723);
+    /* padding: 80px; */
 }
 
 form {
@@ -30,6 +18,12 @@ form {
 label {
     display: inline-block;
     width: 120px;
+    margin: 0;
+}
+
+.address{
+    display: flex;
+    align-items: center;
 }
 
 input[type="text"],
@@ -51,8 +45,6 @@ button {
 button:hover {
     background-color: #0056b3;
 }
-
-
 
 
 #cart {
@@ -87,23 +79,109 @@ button:hover {
     padding-top: 40px;
     background-image: url(../assests/v870-tang-36.jpg);
     background-size: cover;
-
-    background-position: center;
 }
 
-.navbar-custom {
-    background: linear-gradient(to right, #ffcc00, #66cc99, #0077cc);
-    position: fixed;
-    top: 0;
-    left: 0;
+
+  body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.content {
+    background-color: rgba(22, 169, 139, 0.723);
+    padding: 5% 10%;
+}
+
+form,
+.address,
+input[type="text"],
+input[type="number"],
+textarea {
     width: 100%;
-    z-index: 1000;
 }
 
-#media :hover{
-    background: linear-gradient(to right, #ffcc00, #66cc99, #0077cc);
-    color: black;
-    padding: 2px;
-    margin: 2px;
-    font-weight: 700;
-  }
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.button-container {
+    text-align: center;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.content {
+    background-color: rgba(22, 169, 139, 0.723);
+    padding: 5% 10%;
+    min-height: 100vh; /* Ensure minimum height */
+    box-sizing: border-box; /* Include padding in height calculation */
+}
+
+form,
+.address,
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.button-container {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .content {
+        padding: 10% 15%;
+    }
+
+    form,
+    .address,
+    input[type="text"],
+    input[type="number"],
+    textarea {
+        width: 70%;
+        max-width: 500px; /* Limit width on larger screens */
+    }
+}
+
+@media (min-width: 992px) {
+    .content {
+        padding: 15% 20%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .content {
+        padding: 20% 25%;
+    }
+}
+
+
+
+

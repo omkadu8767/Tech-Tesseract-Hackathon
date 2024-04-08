@@ -74,5 +74,9 @@ h3 {
 @media (max-width: 768px) {
   .about {
     flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
   }
 }

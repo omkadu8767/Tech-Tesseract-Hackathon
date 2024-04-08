@@ -200,3 +200,8 @@ li {
   margin: 2px;
   font-weight: 700;
 }
+
+::selection{
+  background-color: black;
+  color: white;
+}
