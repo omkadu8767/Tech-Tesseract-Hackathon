@@ -19,7 +19,7 @@
             <li><strong>FAQ</strong> For any query regarding the portal user can go through FAQ questions to get desired answers.
              <img src="https://github.com/omkadu8767/Tech-Tesseract-Hackathon/blob/main/Readme%20Assests/FAQ.png"></li>
             <li><strong>Chatbot:</strong> To get assistance with our portal we have Swastha Mitra Chatbot which guides users with the flow.
-         <img src="https://github.com/omkadu8767/Tech-Tesseract-Hackathon/blob/main/Readme%20Assests/bot.png" align-items="center"></li>
+         <img src="https://github.com/omkadu8767/Tech-Tesseract-Hackathon/blob/main/Readme%20Assests/bot.png" align="center"></li>
             <li><strong>Book An Appointment:</strong>User can Book an Appointment with a doctor for this he/she needs to fill up the needed information so that his/her session will be booked with the preferred time and date.
             <img src="https://github.com/omkadu8767/Tech-Tesseract-Hackathon/blob/main/Readme%20Assests/Book%20an%20appointment.png"><br><br>
             <img src="https://github.com/omkadu8767/Tech-Tesseract-Hackathon/blob/main/Readme%20Assests/Book%20an%20appointment1.png"><br><br>
