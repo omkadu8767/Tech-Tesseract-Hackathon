@@ -1,6 +1,9 @@
+Visit Our Portal here -> https://omkadu8767.github.io/Tech-Tesseract-Hackathon/
+<br>
+<br>
 ![logo](https://github.com/omkadu8767/Tech-Tesseract-Hackathon/blob/main/Readme%20Assests/Anagha%20Badhe%20(1).png)
-<h1><img src="https://github.com/omkadu8767/Tech-Tesseract-Hackathon/blob/main/assests/logo.png" height="30">Health Care Portal</h1>
-        <p>Welcome to our Health Care Portal! This portal aims to create a comprehensive online portal that facilitates easy access to government-approved medicines, personalized prescriptions based on disease details, suggestions for nearby stores, and timely reminders for medication doses. This portal will serve as a one-stop solution for individuals seeking medical assistance, information on government-approved medications, and convenient access to pharmacies.
+<h1><img src="https://github.com/omkadu8767/Tech-Tesseract-Hackathon/blob/main/assests/logo.png" height="30">Swastha Bharat Portal</h1>
+        <p>Welcome to our Swastha Bharat Portal! This portal aims to create a comprehensive online portal that facilitates easy access to government-approved medicines, personalized prescriptions based on disease details, suggestions for nearby stores, and timely reminders for medication doses. This portal will serve as a one-stop solution for individuals seeking medical assistance, information on government-approved medications, and convenient access to pharmacies.
 
 </p>
  <h2>Features</h2>
