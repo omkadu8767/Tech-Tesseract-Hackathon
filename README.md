@@ -55,11 +55,11 @@ Visit Our Portal here -> https://omkadu8767.github.io/Tech-Tesseract-Hackathon/
         </ul>
         <h1>Meet The Team</h1>
         <ul>
-                <li><Strong>Subodh Mungathe</Strong><br>
-                <a href="https://www.linkedin.com/in/subodh-munghate-373a54302/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="subodh" height="20" width="30" /></a></li>
+                <li><Strong>Subodh Munghate</Strong><br>
+                <a href="https://www.linkedin.com/in/subodh-munghate-373a54302/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="subodh" height="20" width="30" /></a></li>
                 <li><strong>Om Kadu</strong><br>
-                <a href="https://in.linkedin.com/in/om-kadu-53305425a" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="om" height="20" width="30" /></a></li>
+                <a href="https://in.linkedin.com/in/om-kadu-53305425a" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="om" height="20" width="30" /></a></li>
                 <li><strong>Anagha Badhe</strong><br>
-                <a href="v" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="om" height="20" width="30" /></a></li>
+                <a href="https://www.linkedin.com/in/anagha-badhe-98366325a/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="anagha" height="20" width="30" /></a></li>
         </ul>
         <img src="https://github.com/omkadu8767/Tech-Tesseract-Hackathon/blob/main/Readme%20Assests/team.jpg">
